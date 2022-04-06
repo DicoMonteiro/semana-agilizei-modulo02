@@ -1,0 +1,64 @@
+[
+  {
+    "description": "    Como usuário, desejo realizar um cadastro\n    Para que possa acessar o sistema",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro",
+    "line": 2,
+    "id": "cadastro",
+    "tags": [],
+    "uri": "Cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro;cadastro-de-usuário-no-site",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Cadastro de usuário no site",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 8,
+            "name": "que acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 49527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 9,
+            "name": "informar meus dados",
+            "result": {
+              "status": "passed",
+              "duration": 8945000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "salvar",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 11,
+            "name": "devo ser cadastrado com sucesso",
+            "result": {
+              "status": "failed",
+              "duration": 5068000000,
+              "error_message": "CypressError: `cy.wait()` timed out waiting `5000ms` for the 1st request to the route: `postNewtable`. No request ever occurred.\n    at cypressErr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:170112:16)\n    at Object.throwErr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:170008:11)\n    at $Cy.retry (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162456:19)\n    at checkForXhr (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:158465:17)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:158466:28\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10130:23)\n    at Function.Promise.attempt.Promise.try (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:7404:29)\n    at tryFn (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162938:24)\n    at whenStable (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162979:12)\n    at http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:162502:16\n    at tryCatcher (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:10130:23)\n    at Promise._settlePromiseFromHandler (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8065:31)\n    at Promise._settlePromise (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8122:18)\n    at Promise._settlePromise0 (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8167:10)\n    at Promise._settlePromises (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8247:18)\n    at Promise._fulfill (http://demo.automationtesting.in/__cypress/runner/cypress_runner.js:8191:18)\nFrom Your Spec Code:\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:77:6)\n    at Context.resolveAndRunStepDefinition (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:20238:9)\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:19580:35)\nFrom Your Spec Code:\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:77:6)\n    at Context.resolveAndRunStepDefinition (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:20238:9)\n    at Context.eval (http://demo.automationtesting.in/__cypress/tests?p=cypress/integration/Cadastro.feature:19580:35)"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

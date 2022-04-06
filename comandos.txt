@@ -1,0 +1,4 @@
+apos executa os testes usando cucumnber para visualizar o relatorio:
+
+
+node cypress/reports/reporter.js
