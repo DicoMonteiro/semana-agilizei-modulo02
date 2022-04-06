@@ -45,9 +45,9 @@ jobs:
       
       # Publicar relatório em html
       - name: Deploy to GithubPages
-        uses: JamesIves/github-pages-deploy-action@v3.5.9
+        uses: JamesIves/github-pages-deploy-action@v4.3.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ github.token }}
           BRANCH: gh-pages
           FOLDER: cypress/reports
       
